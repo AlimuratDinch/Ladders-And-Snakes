@@ -1,0 +1,27 @@
+public class PlayLadderAndSnake {
+	
+	
+	 
+	public static void main(String[] args) {
+		
+		/**
+		 * This is the creation of a LadderAndSnake object called Game to test the program
+		 */
+        LadderAndSnake Game = new LadderAndSnake();
+        /**
+         * This method implements the start by rolling a dice
+         */
+        Game.start();  //starting the game by rolling a dice
+        /**
+         * This method is an accual game play.
+         */
+        Game.play();
+        
+       
+        
+       
+	}
+    
+
+
+}
